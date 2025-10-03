@@ -32,6 +32,11 @@ const insuranceProviders = [
     description: 'Federal health insurance',
     icon: Shield
   },
+  { 
+    name: 'Medi-Cal', 
+    description: 'California health coverage',
+    icon: Heart
+  },
 ]
 
 export function InsuranceAccepted() {

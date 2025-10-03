@@ -47,7 +47,7 @@ export function HeroVideo() {
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="space-y-6">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white drop-shadow-lg">
-            <span className="block text-white">Dabney Behavioral Health</span>
+            <span className="block text-white">Dabney Behavioral Health California</span>
           </h1>
           <p className="text-xl sm:text-2xl text-green-100 drop-shadow max-w-2xl mx-auto">
             Compassionate, inclusive mental health care tailored to your unique journey

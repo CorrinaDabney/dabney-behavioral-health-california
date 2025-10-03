@@ -11,39 +11,11 @@ const staffMembers = [
     description: 'Clinical Director with extensive experience in behavioral health and mental wellness.'
   },
   {
-    name: 'Dr. Cynthia Dabney',
-    title: 'MBA, QMHP',
-    phone: '(773) 651-6809',
-    email: null,
-    description: 'Qualified Mental Health Professional specializing in comprehensive care approaches.'
-  },
-  {
-    name: 'Ms. Jennifer Hayden',
-    title: 'QMHP – Clinical Supervisor',
-    phone: '(773) 885-1303',
-    email: 'jennifer.hayden@dbhhc.org',
-    description: 'Clinical Supervisor overseeing therapeutic services and staff development.'
-  },
-  {
-    name: 'Mr. Derrick Wilson',
-    title: 'MHP - Quality Assurance Supervisor',
-    phone: '(773) 299-4191',
-    email: 'derrick.wilson@dbhhc.org',
-    description: 'Quality Assurance Supervisor ensuring excellence in service delivery.'
-  },
-  {
-    name: 'Mrs. Delia Delgado',
+    name: 'Mrs. Sherlonda Anderson',
     title: 'Administrative Liaison',
-    phone: '(773) 939-2863',
-    email: 'delia.delgado@dbhhc.org',
+    phone: '(661) 220-9977',
+    email: 'sherlonda.anderson@dbhhc.org',
     description: 'Administrative Liaison coordinating patient care and office operations.'
-  },
-  {
-    name: 'Ms. Lisa Radford',
-    title: 'MHP - Mental Health Coordinator',
-    phone: '(773) 299-4190',
-    email: 'lisa.radford@dbhhc.org',
-    description: 'Mental Health Coordinator facilitating comprehensive treatment planning.'
   },
 ]
 

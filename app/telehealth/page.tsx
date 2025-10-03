@@ -78,7 +78,7 @@ export default function TelehealthPage() {
             className="bg-green-600 hover:bg-green-700 px-8 py-4"
             asChild
           >
-            <Link href="https://www.therapyportal.com/p/dabneybhhc/" target="_blank">
+            <Link href="https://www.therapyportal.com/p/dabneyhealth/" target="_blank">
               Access Patient Portal <ExternalLink className="w-4 h-4 ml-2" />
             </Link>
           </Button>
