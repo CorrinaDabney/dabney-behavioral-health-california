@@ -6,7 +6,7 @@ const staffMembers = [
   {
     name: 'Dr. Corey Dabney',
     title: 'Ph.D., MBA, LPHA - Clinical Director',
-    phone: '(773) 651-6809',
+    phone: '(661) 220-9977',
     email: null,
     description: 'Clinical Director with extensive experience in behavioral health and mental wellness.'
   },

@@ -27,6 +27,7 @@ const intakeSteps = [
     description: 'Start your personalized care plan',
     icon: CheckCircle,
     details: 'Begin working with your dedicated therapist on a treatment plan tailored to your unique needs.',
+    showArrow: true,
   },
 ]
 
@@ -71,8 +72,9 @@ export function IntakeProcess() {
 
                 {/* Content */}
                 <div className="text-center">
-                  <h3 className="font-semibold text-gray-900 mb-2">
+                  <h3 className="font-semibold text-gray-900 mb-2 flex items-center justify-center gap-2">
                     {step.title}
+                    {step.step === 3 && <ArrowRight className="w-5 h-5 text-green-600" />}
                   </h3>
                   <p className="text-sm text-gray-600 mb-4">
                     {step.description}

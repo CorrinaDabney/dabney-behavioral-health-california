@@ -3,39 +3,14 @@ import { Shield, Heart, Users, Award } from 'lucide-react'
 
 const insuranceProviders = [
   { 
-    name: 'Blue Cross Blue Shield', 
-    description: 'Comprehensive coverage',
-    icon: Shield
-  },
-  { 
-    name: 'Aetna', 
-    description: 'Quality care network',
-    icon: Heart
-  },
-  { 
-    name: 'Cigna', 
-    description: 'Health partnership',
-    icon: Users
-  },
-  { 
-    name: 'United Healthcare', 
-    description: 'Trusted provider',
-    icon: Award
-  },
-  { 
-    name: 'Medicaid', 
-    description: 'State assistance program',
+    name: 'Medi-Cal', 
+    description: 'California health coverage',
     icon: Heart
   },
   { 
     name: 'Medicare', 
     description: 'Federal health insurance',
     icon: Shield
-  },
-  { 
-    name: 'Medi-Cal', 
-    description: 'California health coverage',
-    icon: Heart
   },
 ]
 
@@ -80,10 +55,10 @@ export function InsuranceAccepted() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+17736516809"
+              href="tel:+16612209977"
               className="inline-flex items-center justify-center px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
             >
-              Call (773) 651-6809
+              Call (661) 220-9977
             </a>
             <a
               href="/schedule"
