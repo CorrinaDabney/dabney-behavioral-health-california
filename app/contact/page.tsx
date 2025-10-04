@@ -58,7 +58,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone</h3>
-              <p className="text-green-600 text-lg font-medium">(661) 220-8413</p>
+              <p className="text-green-600 text-lg font-medium">(661) 220-9977</p>
               <p className="text-gray-600 text-sm mt-2">Call during business hours</p>
             </div>
 

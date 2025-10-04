@@ -156,10 +156,10 @@ export default function TelehealthPage() {
               <div className="text-center">
                 <p className="text-green-900 font-semibold mb-1">Mr. Derrick Wilson</p>
                 <a 
-                  href="tel:7732994191"
+                  href="tel:+16612209977"
                   className="text-green-600 hover:text-green-700 font-medium text-lg"
                 >
-                  (773) 299-4191
+                  (661) 220-9977
                 </a>
               </div>
             </div>
