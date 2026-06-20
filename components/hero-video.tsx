@@ -44,35 +44,64 @@ export function HeroVideo() {
       <div className="absolute inset-0 hero-overlay" />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <div className="space-y-6">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white drop-shadow-lg">
-            <span className="block text-white">Dabney Behavioral Health California</span>
-          </h1>
-          <p className="text-xl sm:text-2xl text-green-100 drop-shadow max-w-2xl mx-auto">
-            Compassionate, inclusive mental health care tailored to your unique journey
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button
-              size="lg"
-              className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg"
-              asChild
-            >
-              <Link href="/schedule">
-                New Patient Forms
-              </Link>
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="bg-white/20 border-white/30 text-white hover:bg-white/30 px-8 py-4 text-lg"
-              asChild
-            >
-              <Link href="/clinical-services">
-                Learn More
-              </Link>
-            </Button>
+      <div className="relative z-10 w-full px-4 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
+
+          {/* Left Panel — Educational & Diagnostic */}
+          <div className="bg-white/90 rounded-xl p-6 shadow-lg">
+            <h2 className="text-lg font-bold text-gray-900 mb-1">Educational &amp; Diagnostic Evaluations</h2>
+            <p className="text-sm text-green-700 font-medium mb-4">PsyD/Ph.D., LEP, &amp; clinical associates</p>
+            <ul className="space-y-2 text-sm text-gray-700">
+              <li className="flex items-start gap-2"><span className="text-green-600 mt-0.5">•</span>Psycho-educational evaluation</li>
+              <li className="flex items-start gap-2"><span className="text-green-600 mt-0.5">•</span>Psychological educational assessment</li>
+              <li className="flex items-start gap-2"><span className="text-green-600 mt-0.5">•</span>Independent Educational Evaluation (IEE)</li>
+              <li className="flex items-start gap-2"><span className="text-green-600 mt-0.5">•</span>Autism spectrum diagnostic assessment</li>
+            </ul>
           </div>
+
+          {/* Center — Title & Buttons */}
+          <div className="text-center space-y-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-5xl font-bold text-white drop-shadow-lg">
+              Dabney Behavioral Health California
+            </h1>
+            <p className="text-xl text-green-100 drop-shadow">
+              Compassionate, inclusive mental health care tailored to your unique journey
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Button
+                size="lg"
+                className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg"
+                asChild
+              >
+                <Link href="/schedule">
+                  New Patient Forms
+                </Link>
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="bg-white/20 border-white/30 text-white hover:bg-white/30 px-8 py-4 text-lg"
+                asChild
+              >
+                <Link href="/clinical-services">
+                  Learn More
+                </Link>
+              </Button>
+            </div>
+          </div>
+
+          {/* Right Panel — Therapy & Specialist */}
+          <div className="bg-white/90 rounded-xl p-6 shadow-lg">
+            <h2 className="text-lg font-bold text-gray-900 mb-1">Therapy &amp; Specialist Services</h2>
+            <p className="text-sm text-green-700 font-medium mb-4">LMFT, LCSW, &amp; clinical associates</p>
+            <ul className="space-y-2 text-sm text-gray-700">
+              <li className="flex items-start gap-2"><span className="text-green-600 mt-0.5">•</span>Adult autism specialist services</li>
+              <li className="flex items-start gap-2"><span className="text-green-600 mt-0.5">•</span>Trauma-focused care</li>
+              <li className="flex items-start gap-2"><span className="text-green-600 mt-0.5">•</span>Family &amp; adoptive family therapy</li>
+              <li className="flex items-start gap-2"><span className="text-green-600 mt-0.5">•</span>ADHD coaching for children &amp; teens</li>
+            </ul>
+          </div>
+
         </div>
       </div>
 
