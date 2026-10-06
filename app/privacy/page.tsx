@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Privacy Notice - Dabney Behavioral Health',
@@ -22,7 +23,11 @@ export default function PrivacyPage() {
           Dabney Behavioral Health (“DBHHC,” “we,” “us”) respects your privacy. This notice explains how
           we handle information you share through our website and our online forms, including the{' '}
           <strong>Quick Referral</strong> and <strong>New Patient Intake</strong> forms. It supplements
-          our <strong>Notice of Privacy Practices</strong>, which explains your full rights under HIPAA
+          our{' '}
+          <Link href="/notice-of-privacy-practices" className="text-green-700 underline">
+            <strong>Notice of Privacy Practices</strong>
+          </Link>
+          , which explains your full rights under HIPAA
           and California law and is provided to every patient at intake and on request.
         </p>
 
@@ -138,7 +143,11 @@ export default function PrivacyPage() {
 
         <h2 className="text-2xl font-semibold text-green-900 mt-8 mb-3">Your rights and questions</h2>
         <p className="mb-4">
-          You may request a copy of our Notice of Privacy Practices, ask to see or correct your records,
+          You may read our{' '}
+          <Link href="/notice-of-privacy-practices" className="text-green-700 underline">
+            Notice of Privacy Practices
+          </Link>{' '}
+          or request a copy of it, ask to see or correct your records,
           or ask questions about your privacy at any time. To review or correct information you sent
           us, contact our Privacy Officials below.
         </p>
